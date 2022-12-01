@@ -1,12 +1,35 @@
-# Advent of Code Clojure Starter
+# Advent of Code Clojure
 
-A batteries included starter pack for participating in [Advent of Code](https://www.adventofcode.com) using Clojure!
+## Progress
 
-(This projects uses [lein](https://github.com/technomancy/leiningen)).
+- [x] Day 1: Sonar Sweep
+- [ ] Day 2: Dive!
+- [ ] Day 3: Binary Diagnostic
+- [ ] Day 4:
+- [ ] Day 5:
+- [ ] Day 6:
+- [ ] Day 7:
+- [ ] Day 8:
+- [ ] Day 9:
+- [ ] Day 10:
+- [ ] Day 11:
+- [ ] Day 12:
+- [ ] Day 13:
+- [ ] Day 14:
+- [ ] Day 15:
+- [ ] Day 16:
+- [ ] Day 17:
+- [ ] Day 18:
+- [ ] Day 19:
+- [ ] Day 20:
+- [ ] Day 21:
+- [ ] Day 22:
+- [ ] Day 23:
+- [ ] Day 24:
 
 ## Usage
 
-There are 25 namespaces, 25 input files 25 example input files, 25 tests, and 50 `lein` tasks. 
+There are 25 namespaces, 25 input files 25 example input files, 25 tests, and 50 `lein` tasks.
 
 1. Fill in the tests with the example solutions.
 1. Write your implementation.
@@ -39,16 +62,4 @@ There are 25 namespaces, 25 input files 25 example input files, 25 tests, and 50
 (deftest part2
   (let [expected nil]
     (is (= expected (part-2 (slurp (resource "day-1-example.txt")))))))
-```
-
-## Installation
-
-```bash
-# clone
-$ git clone git@github.com:mhanberg/advent-of-code-clojure-starter.git advent-of-code
-$ cd advent-of-code
-
-# Reinitialize your git repo
-$ rm -rf .git
-$ git init
 ```
