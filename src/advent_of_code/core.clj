@@ -23,7 +23,8 @@
             [advent-of-code.day-22]
             [advent-of-code.day-23]
             [advent-of-code.day-24]
-            [advent-of-code.day-25]))
+            [advent-of-code.day-25]
+            [clojure.java.io :refer [resource]]))
 
 (defn read-input
   [day]
